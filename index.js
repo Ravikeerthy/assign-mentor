@@ -73,6 +73,6 @@ app.use('/api/mentor', mentorRouter);
 
 connectDB();
 
-app.listen(process.env.port, (req, res)=>{
+app.listen(process.env.port, ()=>{
     console.log("App is listening in the port:", process.env.port);
 })
